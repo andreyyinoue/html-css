@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+
+header{
+    background-color: black;
+    color: white;
+
+    height: 250px;
+
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    color: black;
+}
+
+div#ladybug{
+    
+}
+
+div#sheets{
+
+}
