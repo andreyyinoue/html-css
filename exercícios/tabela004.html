@@ -8,7 +8,12 @@
     <style>
         
         body{
+            font-family: Arial, Helvetica, sans-serif;
             text-align: center;
+        }
+
+        caption{
+            font-size: 1.3em;
         }
         
         table{
@@ -32,18 +37,20 @@
     </style>
 </head>
 <body>
+  
     <h1>Tabela 004</h1>
+  <caption>Filmes Favoritos</caption>
     <table>
         <thead>
             <tr class="name">
-                <th>Grupo</th>
-                <th>Nomes</th>
-                <th colspan="3">Filmes</th>
+                <th scope="col">Grupo</th>
+                <th scope="col">Nomes</th>
+                <th colspan="3" scope="colgroup">Filmes</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td rowspan="3" class="name" style="background-color: rgba(255, 0, 0, 0.671); color: white;">Mulheres</td>
+                <th rowspan="3" class="name" style="background-color: rgba(255, 0, 0, 0.671); color: white;" scope="rowgroup">Mulheres</th>
                 <td>Ana Maria Santos</td>
                 <td>Alien</td>
                 <td>Rambo</td>
@@ -62,7 +69,7 @@
                 <td>Big Hero</td>
             </tr>
             <tr>
-                <td rowspan="3" class="name" style="background-color: rgba(0, 0, 255, 0.685); color: white;">Homens</td>
+                <th rowspan="3" class="name" style="background-color: rgba(0, 0, 255, 0.685); color: white;" scope="rowgroup">Homens</th>
                 <td>Bruno Medonça</td>
                 <td>Intocáveis</td>
                 <td>Amnésia</td>
@@ -84,7 +91,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th colspan="4">Total</th>
+                <th colspan="4" scope="row">Total</th>
                 <td>1000</td>
             </tr>
         </tfoot>
