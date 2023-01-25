@@ -21,7 +21,7 @@ h1{
 }
 
 menu{
-    text-align: center;
+    display: none;
 }
 
 a{
@@ -30,6 +30,7 @@ a{
     color: white;
     text-decoration: none;
     padding: 10px;
+    text-align: center;
     margin-top: 1px;
 }
 
@@ -53,6 +54,19 @@ h2{
 p{
     text-align: justify;
     margin-bottom: 10px;
-    text-indent: 20px;
+    text-indent: 20px;  
 }
 
+#burger{
+    background-color: rgb(71, 71, 71);
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burger:hover{
+    background-color: white;
+    color: black;
+}
